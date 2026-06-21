@@ -12,7 +12,7 @@
 
 ---
 
-A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Arc-Breeze** theme and inherits the base **Surfn** icon set, so `surfn-icons-git` is required.
+A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Arc-Breeze** theme. It inherits **breeze** (with fallbacks through Sardi, Numix, Papirus and Moka), so the `breeze-icons` package is required.
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
@@ -20,12 +20,12 @@ A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
 sudo pacman -S surfn-arc-breeze-icons-git
 ```
 
-`surfn-icons-git` (base Surfn) is pulled in automatically as a dependency.
+`breeze-icons` is pulled in automatically as a dependency.
 
 ## Manual
 
 Copy the **Surfn-Arc-Breeze** icon folder into `~/.icons` (or `~/.local/share/icons` on Plasma),
-make sure the base `Surfn` theme is present, then select **Surfn Arc Breeze** in your appearance settings.
+make sure `breeze-icons` is installed, then select **Surfn Arc Breeze** in your appearance settings.
 
 ## License
 
