@@ -16,7 +16,11 @@ A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
-```
+```bash
+# Everything — the whole Surfn collection (base + all variants)
+sudo pacman -S surfn-icons-meta
+
+# Only this variant
 sudo pacman -S surfn-arc-breeze-icons-git
 ```
 
